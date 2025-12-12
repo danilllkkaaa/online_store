@@ -1,0 +1,63 @@
+﻿# Корневой .gitignore для Django + React проекта
+
+# Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# React/Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+dist/
+build/
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iws
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
